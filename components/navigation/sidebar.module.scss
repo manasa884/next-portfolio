@@ -1,0 +1,16 @@
+@import '../../styles/color';
+
+.container {
+  padding: 20px 40px;
+}
+
+.list {
+  position: fixed;
+  margin-top: 90px;
+}
+
+.listItem {
+  margin-bottom: 35px;
+  color: $color-primary;
+  font-size: 1.1rem;
+}
