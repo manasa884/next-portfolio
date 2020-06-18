@@ -7,7 +7,7 @@ const Sidebar = props => {
     <>
       <div className="container">
         <List className="list">
-          <Link href="/"><ListItem button className={styles.listItem}>About</ListItem></Link>
+          <Link href="/"><ListItem button className={`listItem ${styles.listItem}`}>About</ListItem></Link>
           <Link href="/photography"><ListItem button className={`listItem ${styles.listItem}`}>Photography</ListItem></Link>
           <Link href="/design"><ListItem button className={`listItem ${styles.listItem}`}>Design</ListItem></Link>
           <Link href="/contact"><ListItem button className={`listItem ${styles.listItem}`}>Contact</ListItem></Link>
