@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout>
+      {/* <Layout> */}
         <Typography className={`${styles.heading} ${styles.animated} ${styles.animatedFadeInUp} ${styles.fadeInUp}`}>
           Hi, I'm Manasa 👋🏼
         </Typography>
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
           </Grid>
         </Grid>
-      </Layout>
+      {/* </Layout> */}
     </>
   )
 }
