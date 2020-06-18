@@ -1,5 +1,5 @@
 import Layout from '../components/layout/layout'
-import { Grid, Grow } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import styles from './Photography.module.scss'
 
 export default function Photography({ posts }) {
@@ -7,13 +7,11 @@ export default function Photography({ posts }) {
     <>
       <Layout>
         <Grid container spacing={4} justify="center">
-          {posts.data && posts.data.map((post, i) => (
+          {posts.data && posts.data.map(post => (
             <Grid item>
-              <Grow in timeout={i * 250}>
-                <a href={post.permalink} target="_blank" rel="noopener noreferrer">
-                  <img src={post.media_url} className={styles.img}/>
-                </a>
-              </Grow>
+              <a href={post.permalink} target="_blank" rel="noopener noreferrer">
+                <img src={post.media_url} className={styles.img}/>
+              </a>
             </Grid>
           ))}
         </Grid>
