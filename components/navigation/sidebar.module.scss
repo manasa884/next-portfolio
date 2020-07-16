@@ -2,9 +2,19 @@
 
 .listItem {
   color: $color-primary;
+  -webkit-transition: color 0.4s; 
+  transition: color 0.4s;
+  &:hover {
+    color: $red;
+    background-color: transparent;
+  }
 }
 
-.listItem:hover {
-  background-color: transparent;
-  color: $red;
+.listItemSelected {
+  color: $color-accent;
+  -webkit-transition: color 0.4s; 
+  transition: color 0.4s;
+  &:hover {
+    background-color: transparent;
+  }
 }

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Manasa Tipparam</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

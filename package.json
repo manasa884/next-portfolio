@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.10.2",
-    "next": "9.4.4",
+    "framer-motion": "^2.0.0",
+    "next": "^9.4.5-canary.15",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-social-icons": "^4.1.0",

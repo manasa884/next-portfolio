@@ -1,5 +1,5 @@
 import { Grid, Grow } from '@material-ui/core'
-import styles from './Photography.module.scss'
+import styles from './photography.module.scss'
 
 export default function Photography({ posts }) {
   return (
@@ -37,13 +37,6 @@ export async function getStaticProps() {
         "id": "18093603865120466"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/B9ptWIepeNq\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/89383982_2046070658871847_1197119049292588338_n.jpg?_nc_cat=107&_nc_sid=8ae9d6&_nc_oc=AQm_8pRiWLLYmqdxdGYjNgDJeS9kYBbEzI_e4M-Fh-I-NT6mNBKbLRd6j4LWMrry04M&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=a694a740523de42825eeee085e142ad2&oe=5F0F862E",
-        "media_type": "IMAGE",
-        "caption": "I was looking back at some photos from Thailand and found this gem 🌸",
-        "id": "17929344625366972"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/B7j-ovpgT1O\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/83005692_104600211006158_7660822298514082393_n.jpg?_nc_cat=109&_nc_sid=8ae9d6&_nc_oc=AQkN7davxQ-Fj7QAmJfMn8ZGnlEl9hMmXJZVjYT2woNWIARwYyIhEQ_fMtmWvjN3VbE&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=7bc909988561714798374470a852ea83&oe=5F0FD33A",
         "media_type": "IMAGE",
@@ -65,20 +58,6 @@ export async function getStaticProps() {
         "id": "17895732784441001"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/B7QzoebA1Xr\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/81969581_149890626448296_2562190554195985639_n.jpg?_nc_cat=110&_nc_sid=8ae9d6&_nc_oc=AQnbGyN5386XfRw2dvaNKR_lztOKwQTu6oxjn4hMwe5S015hsLMcvp9n5ykBRqSXrdo&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=e2cd0502d58d9177dca5ce72cd905ea7&oe=5F0EBA84",
-        "media_type": "IMAGE",
-        "caption": "Love a good mountain view 🌄",
-        "id": "18125023246049720"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BhnbucZH_AC\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/30604385_806061232921341_6611599765572419584_n.jpg?_nc_cat=101&_nc_sid=8ae9d6&_nc_oc=AQnWUFpqCo7qavzsyN1JcUplsaipKig2HzN4yj5o5BmYiyHTXPnM8MmgsMDzbHMZBA8&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=cdb48427dd37984826b77e603f955bef&oe=5F0F21A1",
-        "media_type": "IMAGE",
-        "caption": "Booking 2018 Senior Portraits starting at $65\/session! Feel free to contact me for details 🙂",
-        "id": "17878179160211449"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/B7GG6SUAvMH\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/82056131_3363085837066175_3807259867044502212_n.jpg?_nc_cat=100&_nc_sid=8ae9d6&_nc_oc=AQm1iGduiQWHuyfpzb8BjHz4XLCq406dHvLX1dU6qVXCocNwQEgHkBM3t3658dR0sac&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=6adfcbe1d2f3a4b87007a61a4c84feb6&oe=5F117B02",
         "media_type": "CAROUSEL_ALBUM",
@@ -86,11 +65,11 @@ export async function getStaticProps() {
         "id": "17859219868679398"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/B6FePS-g2Oo\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/73521710_162210081805842_7434945431769625473_n.jpg?_nc_cat=101&_nc_sid=8ae9d6&_nc_oc=AQm-WhDLqUFSKOdFPy2Edlw_EQkS2vqiM5SzAbN3QQC8xtkvplfQuXjXcQ9Bkf2xpO8&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=49c94a14b255f8d4190bb10845c689d0&oe=5F0F5E5C",
+        "permalink": "https://www.instagram.com/p/B9ptWIepeNq/",
+        "media_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/89383982_2046070658871847_1197119049292588338_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=usNyyU0pgu4AX-cpKFx&oh=e1ddbc98314acaec757fa257297abded&oe=5F37BFA1",
         "media_type": "IMAGE",
-        "caption": "Sunset in Sedona 🤩",
-        "id": "17849000614772946"
+        "caption": "I was looking back at some photos from Thailand and found this gem 🌸",
+        "id": "49393653845126472",
       },
       {
         "permalink": "https:\/\/www.instagram.com\/p\/B5yJLhWg1tt\/",
@@ -119,13 +98,6 @@ export async function getStaticProps() {
         "media_type": "CAROUSEL_ALBUM",
         "caption": "Some pictures from this Labor Day trip to the Upper Peninsula!",
         "id": "17888707504403897"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BzuXmukgXMg\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/66355600_111205936846228_1824245894186488920_n.jpg?_nc_cat=106&_nc_sid=8ae9d6&_nc_oc=AQkkhLQqzD9_xleH5YqtBY0fBwR0CXpCznCFG1GUZ2OvkumCr93fXzPIbie_vIK1Uq4&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=66c6ad6aea437fb04604420d24d4380f&oe=5F0F9A59",
-        "media_type": "IMAGE",
-        "caption": "Hiked up to an elevation of 5000 ft. to see the Thornton Lakes but the fog was not our friend that day. This was more or less our view from the top of the hill, still pretty amazing, I'll take it🌲",
-        "id": "17845030222514872"
       },
       {
         "permalink": "https:\/\/www.instagram.com\/p\/BysjjwTgTkk\/",
@@ -212,13 +184,6 @@ export async function getStaticProps() {
         "id": "17853980974308493"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/CAd88yjAJSZ\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/100636064_2286662798296311_7912373022827392231_n.jpg?_nc_cat=103&_nc_sid=8ae9d6&_nc_oc=AQlb7PKOPy1NR9AVP3QH69GbXagQeCEh5X8IkKkjCnrJf1Xc8rFnlGZw5Q3V9P_9EVE&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=962f72aa0ff640c329747a81dcab772d&oe=5F0F996B",
-        "media_type": "IMAGE",
-        "caption": "Silhouette ◾️",
-        "id": "17857118152979468"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/Br_ySZuhGHn\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/47583129_235592003992592_11828322568268965_n.jpg?_nc_cat=101&_nc_sid=8ae9d6&_nc_oc=AQmPwJD252vK3wD5jxevZUjLHWU2Toaqt0PxvB_oKxRfk5MvyBTXWqSMU8sN1htA7DM&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=d20692e95cc434d5082bd8165b4ba770&oe=5F1237F3",
         "media_type": "IMAGE",
@@ -240,25 +205,11 @@ export async function getStaticProps() {
         "id": "17923231252248009"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/BrT8-J9hv6l\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/46993551_1974759742599618_4965050156320370752_n.jpg?_nc_cat=102&_nc_sid=8ae9d6&_nc_oc=AQl0vqUBLCaXPtRbi8ImL5Lzzg3JHD2hfAiE6rq9AYMYZyKkmhB6SVsNy3jflaGvwbM&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=08c259454c0f7238d068d6c140208056&oe=5F0F2BBA",
-        "media_type": "IMAGE",
-        "caption": "Exploring the skyways 🍒",
-        "id": "17980431046150333"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/BrL_Frwhym8\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/45600259_375578696544425_5299890129854461992_n.jpg?_nc_cat=108&_nc_sid=8ae9d6&_nc_oc=AQmPzPwNiv8TMFbKey-1ExOWi0LDlTn9HDK9ZTC4ujKujHy_AjIZuKtJMBmtIPbHRnI&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=c59241c34233aa1cf6ba84ce7519b245&oe=5F117CC3",
         "media_type": "CAROUSEL_ALBUM",
         "caption": "Two moods ❤️🖤",
         "id": "18004626439068080"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BrB0S5gBBrO\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/45589058_460959961099837_2137862106069625455_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_oc=AQkvlq2UhkmwzvW8pHkcnQ1YTb-vpupLicB4Ki-aEg5l9a3O_f3jjjczqpfGZgeMqfw&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=21d25f06a955400dd3705036375627fe&oe=5F0F06C3",
-        "media_type": "IMAGE",
-        "caption": "Late night munchies",
-        "id": "17984698675085584"
       },
       {
         "permalink": "https:\/\/www.instagram.com\/p\/BqlWv8Rhbdk\/",
@@ -294,13 +245,6 @@ export async function getStaticProps() {
         "media_type": "IMAGE",
         "caption": "Into the light",
         "id": "17975168989120398"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BpF5EgKB29K\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/43817545_178498946372009_3148575709445167284_n.jpg?_nc_cat=111&_nc_sid=8ae9d6&_nc_oc=AQm9UUPXokxF6uFWzFGBcKTBZ_-H4zrJ3fysNXJKeLFXLgQ-zwK5xcWCj46uxE5zdPM&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=0d6f3092e4dc62638910b5a29b11a557&oe=5F0F2518",
-        "media_type": "IMAGE",
-        "caption": "Winter is coming ☃️",
-        "id": "17975388661098984"
       },
       {
         "permalink": "https:\/\/www.instagram.com\/p\/BospBCLBo3G\/",
@@ -359,13 +303,6 @@ export async function getStaticProps() {
         "id": "17943785092148339"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/Bm4Fo1OHTTF\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/39613366_322385341660434_7172115653652905984_n.jpg?_nc_cat=109&_nc_sid=8ae9d6&_nc_oc=AQkNLU-9eV5oTDpSsC3lOgWwDkDH1R3KuIsuihWpTWaX7PtdjMoY2Hk6Doq5yuQK1rk&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=c67f5746fcab5dfb642f67a56d11d6ec&oe=5F0F8E5F",
-        "media_type": "IMAGE",
-        "caption": "Views along the Godavari river 🌴",
-        "id": "17899351270237408"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/Bm39-oPH2pb\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/39164229_288342471760482_3869624821977448448_n.jpg?_nc_cat=110&_nc_sid=8ae9d6&_nc_oc=AQn__Jmgl5dObGbkVRCboGHU4MC7LzWHdIZYQzXmcdi5bNQZ5E0ne9pqWdHLin8qPeA&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=7860cd18d50a8a247ac02f000a27fb00&oe=5F10C5DB",
         "media_type": "IMAGE",
@@ -401,34 +338,6 @@ export async function getStaticProps() {
         "id": "17949359629114828"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/Blzm4UencWY\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/37193285_293340771411974_6096335897735725056_n.jpg?_nc_cat=101&_nc_sid=8ae9d6&_nc_oc=AQmvO5wpvjVPJ78Gh0_eCzLN3w0U8o8oZbtNMVovdn0jFl-ExrFNcCKfn-VnR5JSoyA&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=0ef9f66cb6bc6448c934e744cb29d357&oe=5F0EF827",
-        "media_type": "IMAGE",
-        "caption": "Street vendors",
-        "id": "17847729958304235"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BlxHCtVHEBE\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/37016271_257202911677092_1794302706223939584_n.jpg?_nc_cat=102&_nc_sid=8ae9d6&_nc_oc=AQmWoeyLudVb9NC_S2RGdoR2vbC-HYPEd2ZqFyTtcGv6JpKD2JisOfX34SDLZPl4HSM&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=001e31cf9efb2b2b3d8ce913764b027a&oe=5F0F6B35",
-        "media_type": "IMAGE",
-        "caption": "Traffic",
-        "id": "17964820222044489"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BlpYuZonOUo\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/37271681_299730857262999_1593166995455475712_n.jpg?_nc_cat=108&_nc_sid=8ae9d6&_nc_oc=AQnXKcJLzrk-rZ8S6XHOKAHLVjj5nyrDmgzqvI5LBB_AnVMHlN5robxvrks-vLQRyIY&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=c1510b7be86e506eba8f52d84820400b&oe=5F0EF507",
-        "media_type": "IMAGE",
-        "caption": "There is beauty in simplicity ☁️",
-        "id": "17962472008025399"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BlmUqWXHmvG\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/36976423_1695029693959115_5304095868222177280_n.jpg?_nc_cat=107&_nc_sid=8ae9d6&_nc_oc=AQk6n2iDFWmfDtp-YjU69hsOAEpu0A0wPU-wfwLndFlHT_aJV7vAFT0texcLnfVkFTA&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=2e36d90b8b72e72e6115a781db784cfe&oe=5F0F5BB8",
-        "media_type": "IMAGE",
-        "caption": "Let’s go down to the tennis court 🎾\n-\nAlso, I had a great time at my first meetup with @h_collective and shoutout to @allisonrebekah_ for being such an amazing model! Can’t wait to attend more in the future 🙌🏼",
-        "id": "17954485993079647"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/BlbQzjmHM0N\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/36950094_267869380686549_6874656075681890304_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_oc=AQnxt8ulsxlyaT_JhoJvUJ9eTYRL8HWMqhGpGrRBcXeTQEr7N08S4Dgtmr64v_WGDQo&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=828c0ccaf8d2c4cca6f32bf0e25462b3&oe=5F1275C3",
         "media_type": "IMAGE",
@@ -450,13 +359,6 @@ export async function getStaticProps() {
         "id": "17960355979001016"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/BlIW6VJniNO\/",
-        "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/36841240_221131315173491_9190623830345777152_n.jpg?_nc_cat=100&_nc_sid=8ae9d6&_nc_oc=AQnOonIZWwDSJy5JfKBjsPO_Y0Vf5DyyF52ps0HPKeVZtUOqmuVcgB0OBq_cHyihpYU&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=8fffdfd6f8f00dc5301074e906444a5a&oe=5F0F1EA1",
-        "media_type": "IMAGE",
-        "caption": "I look into your eyes and see my own soul",
-        "id": "17860834975266891"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/BlEj7tLHY5p\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/36136251_2552003405024925_6123140999083458560_n.jpg?_nc_cat=109&_nc_sid=8ae9d6&_nc_oc=AQmqg2yuHzX-TpJ-As8sMLOH3xKNKQsfk5Erlwo-rKooPSY6SkOWypwg6bC71w1stA4&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=b322f4023fd45f09351a04e39dffc6f9&oe=5F124F2E",
         "media_type": "IMAGE",
@@ -471,32 +373,11 @@ export async function getStaticProps() {
         "id": "17932179919189858"
       },
       {
-        "permalink": "https:\/\/www.instagram.com\/p\/BkQ3ARfHkzI\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/34712996_250526465497174_5836929300510539776_n.jpg?_nc_cat=106&_nc_sid=8ae9d6&_nc_oc=AQnXOepsjbRL3_I3ryN3r469fWIVXq4qwcBl8cBxPpgv8i4DUlkA8Ii2U4-nYtPhdEM&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=2bf29e5e025f5d89e87167310b738ca5&oe=5F0F09AB",
-        "media_type": "IMAGE",
-        "caption": "Not all who wander are lost 🌊",
-        "id": "17953300159005047"
-      },
-      {
         "permalink": "https:\/\/www.instagram.com\/p\/BkQzo2XHN-D\/",
         "media_url": "https:\/\/scontent-lax3-1.cdninstagram.com\/v\/t51.2885-15\/34648728_213361109279947_8439428084565803008_n.jpg?_nc_cat=104&_nc_sid=8ae9d6&_nc_oc=AQn_yqCtIf77koxPGHXBBCv-h2hnCHwSVMgoQ2hYBR2CZeud8QlT6mwsp7IZfkOmq6g&_nc_ht=scontent-lax3-1.cdninstagram.com&oh=c61a58bc5646a271b26b4f2eaff3c241&oe=5F125EFB",
         "media_type": "IMAGE",
         "caption": "The road to success has no speed limit 🚲",
         "id": "17929921045131097"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/Bikw4WuH12Y\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/31203731_1955888224726413_2194585158470860800_n.jpg?_nc_cat=111&_nc_sid=8ae9d6&_nc_oc=AQl5YoHQjCebvWXL_zGFUMc62Zt-xsFqS1csvSeQ78DorzlyHpoJNmaxYymhwMlIx0Q&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=96dd9b5f70b0bbc630b56f5fc351ebca&oe=5F0F4B15",
-        "media_type": "IMAGE",
-        "caption": "The grass is always greener on the other side 🍂",
-        "id": "17927989015120544"
-      },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BiToVqXHm7S\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/31278568_188802108429028_7048921143901683712_n.jpg?_nc_cat=107&_nc_sid=8ae9d6&_nc_oc=AQnU6dYve2jMAn1kvokd4D-SKs7Oyll2SDOsb_gKh8YyaJ-K3LJzQ5fzQbkVPQ5fzFQ&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=17b9bc1085aae8428d91efa4c12aa501&oe=5F0F7134",
-        "media_type": "IMAGE",
-        "caption": "Treat yo self 🍟🍔🥤",
-        "id": "17870602036231259"
       },
       {
         "permalink": "https:\/\/www.instagram.com\/p\/BiKZXQPnh6c\/",
@@ -512,13 +393,6 @@ export async function getStaticProps() {
         "caption": "Making west campus look good 🙌🏼",
         "id": "17937783223002207"
       },
-      {
-        "permalink": "https:\/\/www.instagram.com\/p\/BhZ7iIzHmF3\/",
-        "media_url": "https:\/\/scontent-lax3-2.cdninstagram.com\/v\/t51.2885-15\/29717522_171525993664203_2058602220387041280_n.jpg?_nc_cat=111&_nc_sid=8ae9d6&_nc_oc=AQmT1i---a1psEcaeULad0rOdlHXN1zLlmZ8qK3UvmiuEjiArlGatPAt7_oDRKC1r7s&_nc_ht=scontent-lax3-2.cdninstagram.com&oh=9f641d8b069c8c8a5d10651e483f609e&oe=5F0EFADF",
-        "media_type": "IMAGE",
-        "caption": "Wisdom outweighs any wealth 💎",
-        "id": "17859718006246533"
-      }
       ]
   }
 

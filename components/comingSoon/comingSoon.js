@@ -7,10 +7,10 @@ const ComingSoon = props => {
       <style>{`
       .container {
         text-align: center;
-        margin-top: 28%;
       }
 
       .text {
+        margin-top: 30%;
         font-family: "Muli", sans-serif;
         font-size: 3rem;
         font-weight: 500;
