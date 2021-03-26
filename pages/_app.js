@@ -1,3 +1,4 @@
+import React from 'react'
 import { StylesProvider } from '@material-ui/styles'
 import Layout from '../components/layout/layout'
 
