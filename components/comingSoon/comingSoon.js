@@ -2,10 +2,10 @@ import { Typography } from '@material-ui/core'
 
 const ComingSoon = props => {
   return (
-    <div className="container">
+    <div className="comingsoon-container">
       <Typography className="text">Coming Soon</Typography>
       <style>{`
-      .container {
+      .comingsoon-container {
         text-align: center;
         margin-top: 28%;
       }
