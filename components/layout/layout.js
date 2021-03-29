@@ -17,15 +17,6 @@ const Layout = props => {
         </Grid>
       </Grid>
       <style>{`
-        .brand {
-          font-family: "Muli", sans-serif;
-          font-weight: 700;
-          font-size: 1.8rem;
-          margin: 40px 60px;
-          position: fixed;
-          letter-spacing: 2px;
-        }
-
         .grid {
           min-width: 900px;
         }

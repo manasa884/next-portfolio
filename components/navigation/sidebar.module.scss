@@ -8,3 +8,8 @@
   background-color: transparent;
   color: $red;
 }
+
+.listItem:active {
+  background-color: transparent;
+  color: rgba($red, 0.7);
+}

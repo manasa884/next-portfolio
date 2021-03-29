@@ -6,7 +6,7 @@ export default function Photography({ posts }) {
     <>
       <Grid container spacing={4} justify="center">
         {posts.data && posts.data.map((post, i) => (
-          <Grid item>
+          <Grid item key={post.id}>
             <Grow in timeout={i * 250}>
               <a href={post.permalink} target="_blank" rel="noopener noreferrer">
                 <img src={post.media_url} className={styles.img}/>
@@ -20,7 +20,7 @@ export default function Photography({ posts }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch('https://graph.instagram.com/me/media?fields=id,media_url,timestamp&access_token=IGQVJXamlvblFheVd0MjV6WTdTSWlibnppRnhJOTlTQW9GOVhIbWw2dTVHTVlpWFlOYlJnZAW9qWmJnTGdaN19wWklrSnN1RzZAKek5ZAdVVIMk9sV25GVE9udEpjTlliRHhsR29rX2NzNl9MVXB5TWFnSAZDZD')
+  const res = await fetch('https://graph.instagram.com/me/media?fields=id,media_url,timestamp,permalink&access_token=IGQVJXamlvblFheVd0MjV6WTdTSWlibnppRnhJOTlTQW9GOVhIbWw2dTVHTVlpWFlOYlJnZAW9qWmJnTGdaN19wWklrSnN1RzZAKek5ZAdVVIMk9sV25GVE9udEpjTlliRHhsR29rX2NzNl9MVXB5TWFnSAZDZD')
   const posts = await res.json()
 
   if (!posts) {
