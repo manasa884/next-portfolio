@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import { Typography, Grid, Link } from '@material-ui/core'
-import { SocialIcon } from 'react-social-icons'
+import { Typography, Grid, Link, Button } from '@material-ui/core'
 import styles from './index.module.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
@@ -30,9 +31,18 @@ export default function Home() {
           <Typography className={`${styles.aboutTextSub} ${styles.animated} ${styles.animatedFadeInUp} ${styles.fadeInUp}`}>Currently working on Insights and <Link href="https://tech.target.com/2019/02/05/chaos-engineering-at-Target.html" target="_blank" rel="noopener noreferrer" className={styles.link}> Chaos Engineering at Target</Link></Typography>
           <br/>
           <div className={`${styles.animated} ${styles.animatedFadeInUp} ${styles.fadeInUp}`}>
-            <SocialIcon url="https://www.linkedin.com/in/manasatipparam/" bgColor="#ffffff" fgColor="#9297a1"/>
-            <SocialIcon url="https://www.instagram.com/mtipparam/" bgColor="#ffffff" fgColor="#9297a1"/>
-            <SocialIcon url="https://github.com/manasa884" bgColor="#ffffff" fgColor="#9297a1"/>
+            <a href="https://www.linkedin.com/in/manasatipparam/" target="_blank">
+              <FontAwesomeIcon icon={faLinkedinIn} size="2x" className={styles.socialIcon} />
+            </a>
+            <a href="https://www.instagram.com/mtipparam/" target="_blank">
+              <FontAwesomeIcon icon={faInstagram} size="2x" className={styles.socialIcon} />
+            </a>
+            <a href="https://github.com/manasa884" target="_blank">
+              <FontAwesomeIcon icon={faGithub} size="2x" className={styles.socialIcon} />
+            </a>
+            <a href="https://twitter.com/manasa884" target="_blank">
+              <FontAwesomeIcon icon={faTwitter} size="2x" className={styles.socialIcon} />
+            </a>
           </div>
         </Grid>
       </Grid>

@@ -86,4 +86,10 @@
 .aboutTextContainer .aboutTextSub { animation-delay: .5s }
 .aboutTextContainer div { animation-delay: .75s }
 
-
+.socialIcon {
+  color: #9297a1;
+  margin: 10px;
+  &:hover {
+    color: $color-primary;
+  }
+}
