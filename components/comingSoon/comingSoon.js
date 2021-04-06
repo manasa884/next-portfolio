@@ -1,6 +1,6 @@
 import { Typography } from '@material-ui/core'
 
-const ComingSoon = props => {
+const ComingSoon = () => {
   return (
     <div className="comingsoon-container">
       <Typography className="text">Coming Soon</Typography>
