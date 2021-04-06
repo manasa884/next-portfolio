@@ -1,10 +1,14 @@
 import { Grid, Grow } from '@material-ui/core'
 import styles from './Photography.module.scss'
 import PropTypes from 'prop-types'
+import Head from 'next/head'
 
 export default function Photography({ posts }) {
   return (
     <>
+      <Head>
+        <title>Photography - Manasa Tipparam</title>
+      </Head>
       <Grid container spacing={4} justify="center">
         {posts.data &&
           posts.data.map((post, i) => (

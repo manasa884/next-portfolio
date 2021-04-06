@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>About - Manasa Tipparam</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
