@@ -2,6 +2,7 @@ import { Grid, Typography } from '@material-ui/core'
 import Sidebar from '../navigation/sidebar'
 import styles from './layout.module.scss'
 import PropTypes from 'prop-types'
+import ThemeChanger from '../theme/themeChanger'
 
 const Layout = ({ children }) => {
   return (
@@ -14,8 +15,10 @@ const Layout = ({ children }) => {
         <Grid item xs={8} className="childrenContainer">
           {children}
         </Grid>
-        <Grid item xs={2}></Grid>
       </Grid>
+      <div className="themeChanger">
+        <ThemeChanger />
+      </div>
       <style>{`
         .grid {
           min-width: 900px;
@@ -23,6 +26,12 @@ const Layout = ({ children }) => {
 
         .childrenContainer {
           margin: 30px;
+        }
+
+        .themeChanger {
+          position: absolute;
+          top: 30px;
+          right: 30px;
         }
       `}</style>
     </>

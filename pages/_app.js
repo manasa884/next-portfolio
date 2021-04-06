@@ -25,7 +25,7 @@ function CustomApp({ Component, pageProps }) {
 }
 
 CustomApp.propTypes = {
-  Component: PropTypes.node,
+  Component: PropTypes.func,
   pageProps: PropTypes.object,
 }
 

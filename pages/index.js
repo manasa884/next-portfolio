@@ -90,7 +90,7 @@ export default function Home() {
               <FontAwesomeIcon
                 icon={faLinkedinIn}
                 size="2x"
-                className={styles.socialIcon}
+                className="socialIcon"
               />
             </a>
             <a
@@ -101,7 +101,7 @@ export default function Home() {
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"
-                className={styles.socialIcon}
+                className="socialIcon"
               />
             </a>
             <a
@@ -112,7 +112,7 @@ export default function Home() {
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
-                className={styles.socialIcon}
+                className="socialIcon"
               />
             </a>
             <a
@@ -123,12 +123,22 @@ export default function Home() {
               <FontAwesomeIcon
                 icon={faTwitter}
                 size="2x"
-                className={styles.socialIcon}
+                className="socialIcon"
               />
             </a>
           </div>
         </Grid>
       </Grid>
+      <style>{`
+        .socialIcon {
+          color: #9297a1;
+          margin: 10px;
+        }
+
+        .socialIcon:hover {
+          color: ${styles.primaryColor};
+        }
+      `}</style>
     </>
   )
 }

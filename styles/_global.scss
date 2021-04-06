@@ -1,21 +1,21 @@
 @import '/styles/color';
 
-html, 
+html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   color: $color-primary;
-//   background-color: $color-primary;
-//   color: $white;
+  //   background-color: $color-primary;
+  //   color: $white;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   line-height: 1.7;
   font-size: 1rem;
 }
@@ -23,4 +23,8 @@ body {
 body.dark-mode {
   background-color: $color-primary;
   color: $white;
+
+  .socialIcon:hover {
+    color: $white;
+  }
 }
