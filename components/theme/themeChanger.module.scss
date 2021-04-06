@@ -1,0 +1,15 @@
+@import '/styles/color';
+
+.themeButton {
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.sunIcon {
+  color: $white;
+}
+
+.moonIcon {
+  color: $color-primary;
+}

@@ -1,10 +1,8 @@
 @import '../styles/color';
 
 .heading {
-  font-family: "Muli", sans-serif;
   font-weight: bold;
   font-size: 3.5rem;
-  color: $color-primary;
   margin-top: 40px;
   margin-bottom: 60px;
   white-space: nowrap;
@@ -21,17 +19,13 @@
 }
 
 .aboutTextMain {
-  font-family: "Muli", sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
-  color: $color-primary;
 }
 
 .aboutTextSub {
-  font-family: "Muli", sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  color: $color-primary;
 }
 
 .link {
@@ -69,7 +63,7 @@
   animation-duration: 1.25s;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
-  -webkit-animation-fill-mode: both
+  -webkit-animation-fill-mode: both;
 }
 
 .animatedFadeInUp {
@@ -82,14 +76,16 @@
   -webkit-animation-name: fadeInUp;
 }
 
-.aboutTextContainer .aboutTextMain { animation-delay: .25s }
-.aboutTextContainer .aboutTextSub { animation-delay: .5s }
-.aboutTextContainer div { animation-delay: .75s }
+.aboutTextContainer .aboutTextMain {
+  animation-delay: 0.25s;
+}
+.aboutTextContainer .aboutTextSub {
+  animation-delay: 0.5s;
+}
+.aboutTextContainer div {
+  animation-delay: 0.75s;
+}
 
-.socialIcon {
-  color: #9297a1;
-  margin: 10px;
-  &:hover {
-    color: $color-primary;
-  }
+:export {
+  primaryColor: $color-primary;
 }

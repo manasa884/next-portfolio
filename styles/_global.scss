@@ -1,0 +1,27 @@
+@import '/styles/color';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: $color-primary;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+body.dark-mode {
+  background-color: $color-primary;
+  color: $white;
+
+  .socialIcon:hover {
+    color: $white;
+  }
+}

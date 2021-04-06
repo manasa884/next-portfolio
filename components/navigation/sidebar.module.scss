@@ -1,15 +1,12 @@
 @import '../../styles/color';
 
 .listItem {
-  color: $color-primary;
-}
-
-.listItem:hover {
-  background-color: transparent;
-  color: $red;
-}
-
-.listItem:active {
-  background-color: transparent;
-  color: rgba($red, 0.7);
+  &:hover {
+    background-color: transparent;
+    color: $red;
+  }
+  &:active {
+    background-color: transparent;
+    color: rgba($red, 0.7);
+  }
 }
