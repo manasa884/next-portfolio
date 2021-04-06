@@ -7,7 +7,7 @@ import ThemeChanger from '../theme/themeChanger'
 const Layout = ({ children }) => {
   return (
     <>
-      <Typography className={`brand ${styles.brand}`}>MT</Typography>
+      <Typography className={styles.brand}>MT</Typography>
       <Grid container spacing={3} className="grid">
         <Grid item xs={2}>
           <Sidebar />
