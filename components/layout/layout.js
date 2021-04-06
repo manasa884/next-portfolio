@@ -3,11 +3,14 @@ import Sidebar from '../navigation/sidebar'
 import styles from './layout.module.scss'
 import PropTypes from 'prop-types'
 import ThemeChanger from '../theme/themeChanger'
+import Link from 'next/link'
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Typography className={styles.brand}>MT</Typography>
+      <Link href="/">
+        <Typography className={styles.brand}>MT</Typography>
+      </Link>
       <Grid container spacing={3} className="grid">
         <Grid item xs={2}>
           <Sidebar />
