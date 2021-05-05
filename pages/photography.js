@@ -51,5 +51,14 @@ export async function getStaticProps() {
 }
 
 Photography.propTypes = {
-  posts: PropTypes.array,
+  posts: PropTypes.shape({
+    data: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        media_url: PropTypes.string.isRequired,
+        timestamp: PropTypes.string,
+        permalink: PropTypes.string.isRequired,
+      })
+    ),
+  }),
 }
