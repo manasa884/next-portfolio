@@ -26,6 +26,15 @@ const Sidebar = () => {
             </ListItem>
           </Link>
           {/* <Link href="/design"><ListItem button className={`listItem ${styles.listItem}`}>Design</ListItem></Link> */}
+          <Link href="/experience">
+            <ListItem
+              button
+              disableRipple
+              className={`listItem ${styles.listItem}`}
+            >
+              Experience
+            </ListItem>
+          </Link>
           <Link href="/contact">
             <ListItem
               button
